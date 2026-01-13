@@ -87,7 +87,7 @@ function Home() {
       const formDataToSend = new FormData();
       formDataToSend.append('image', file);
 
-      const response = await fetch('http://localhost:5000/api/upload-bg', {
+      const response = await fetch('tescobackend-bqdqhfh6hnfvfzbn.eastasia-01.azurewebsites.net/api/upload-bg', {
         method: 'POST',
         body: formDataToSend
       });

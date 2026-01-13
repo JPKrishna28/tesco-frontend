@@ -2,7 +2,7 @@
 // API service functions for interacting with the backend
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://tescobackend-bqdqhfh6hnfvfzbn.eastasia-01.azurewebsites.net';
 
 // ---------- Image Upload and Analysis APIs ----------
 export const uploadImage = async (file) => {
